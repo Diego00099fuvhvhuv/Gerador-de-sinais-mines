@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 18px;
+}
+.sponsored {
+    font-size: 12px;
+    color: #888;
+    margin: 5px 0;
+}
+.info {
+    margin: 15px 0;
+    font-size: 14px;
+}
+.game-area {
+    margin: 20px 0;
+}
+.result, .profit {
+    font-size: 16px;
+    margin: 10px 0;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+button#cashout {
+    background-color: #28a745;
+}
+footer {
+    font-size: 12px;
+    color: #888;
+    margin-top: 20px;
+}
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
